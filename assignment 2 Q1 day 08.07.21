@@ -1,1 +1,24 @@
-https://onecompiler.com/javascript/3x5bbxky3
+//Q1 Fizz Buzz program 08-07-21 asssignment
+
+for(i=1; i<=100; i++)
+{
+  a=i/3;
+  b=i/5;
+  c=i/15;
+  if(Number.isInteger(a))
+  {
+    console.log("Fizz");
+  }
+  else if(Number.isInteger(b))
+  {
+    console.log("Buzz");
+  }
+  else if(Number.isInteger(c))
+  {
+    console.log("FizzBuzz");
+  }
+  else
+  {
+    console.log(i);
+  }
+}
